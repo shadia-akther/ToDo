@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical"
+    tools:context=".activity.SplashScreenActivity">
+
+
+    <ImageView
+        android:id="@+id/ivImageLogo"
+        android:layout_width="171dp"
+        android:layout_height="168dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="117dp"
+        android:background="#3F51B5"
+        android:src="@drawable/ic_launcher_foreground" />
+
+
+    <TextView
+        android:id="@+id/tvBottomText"
+        android:layout_width="254dp"
+        android:layout_height="92dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="158dp"
+        android:alpha="0.0"
+        android:text="TO DO LIST"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Display2"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
